@@ -1,5 +1,5 @@
 /*
-Exercício no 1 Benhur "Primeiro programa em C"
+Exercício n 1 Benhur "Primeiro programa em C"
 
 Enunciado: 
 Faça um programa que imprime o seu nome e a sua idade.

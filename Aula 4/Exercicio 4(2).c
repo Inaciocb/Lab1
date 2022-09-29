@@ -5,6 +5,8 @@ Enunciado:
  litros. Faça um programa para calcular o valor necessário para encher o tanque inicialmente vazio. O programa deve
  imprimir o valor separando reais e centavos (por exemplo, "234 reais e 27 centavos"). Dica: pra que serve o resto da
  divisão mesmo?
+ 
+ (reescreva o programa com entrada de dados do usuario)
 */
 
 #include <stdio.h>
@@ -12,17 +14,17 @@ Enunciado:
 int main()
 {
   
-  int valordiesel, capacidadetanque;
+  float valordiesel, capacidadetanque;
   printf("informe o valor, em centavos, do litro de diesel: ");
-  scanf("%d", &valordiesel);
+  scanf("%f", &valordiesel);
   printf("Informe a capacidade, em litros, do tanque do caminhão: ");
-  scanf("%d", &capacidadetanque);
-  int totalvalortanque = capacidadetanque*valordiesel; //total, em centavos, do preço do tanque cheio.
-  int reais = totalvalortanque/100;
-  int cent = totalvalortanque%100;
+  scanf("%f", &capacidadetanque);
+  float totalvalortanque = capacidadetanque*valordiesel; //total, em centavos, do preço do tanque cheio.
+  float valor = totalvalortanque/100;
   
   
-  printf("O valor necessário para o enchimento do tanque é de %d reais e %d centavos", reais, cent);
+  printf("O valor necessário para o enchimento do tanque é de R$ %.2f", valor);
   
   return 0;
 }
+

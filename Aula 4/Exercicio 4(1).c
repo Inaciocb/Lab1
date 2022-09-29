@@ -12,14 +12,14 @@ Enunciado:
 int main()
 {
   
-  float valordiesel, capacidadetanque;
-  printf("informe o valor do litro de diesel: ");
-  scanf("%f", &valordiesel);
+  int valordiesel, capacidadetanque;
+  printf("informe o valor, em centavos, do litro de diesel: ");
+  scanf("%d", &valordiesel);
   printf("Informe a capacidade, em litros, do tanque do caminhão: ");
-  scanf("%f", capacidadetanque0;
-  float totalvalortanque = capacidadetanque*valordiesel; //total, em centavos, do preço do tanque cheio.
-  float cent = totalvalortanque%100;
-  float reais= totalvalortanque/100; 
+  scanf("%d", &capacidadetanque);
+  int totalvalortanque = capacidadetanque*valordiesel; //total, em centavos, do preço do tanque cheio.
+  int reais = totalvalortanque/100;
+  int cent = totalvalortanque%100;
   
   
   printf("O valor necessário para o enchimento do tanque é de %d reais e %d centavos", reais, cent);

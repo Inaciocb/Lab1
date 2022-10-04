@@ -1,6 +1,6 @@
 #include <math.h>
 #include <stdio.h>
-
+//compilar usando -lm:   "gcc bhaskara.c -o bhaskara -lm" 
 int main()
 {
 	float a, b, c, delta;

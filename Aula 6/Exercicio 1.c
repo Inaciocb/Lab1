@@ -1,3 +1,10 @@
+/*
+Faça um programa que:
+
+1. Lê dois números, imprime qual o maior.
+
+*/
+
 #include <stdio.h>
 
 int main()

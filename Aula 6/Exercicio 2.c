@@ -1,3 +1,8 @@
+/*
+    Faça um programa que:
+    Lê dois números, imprime "sao iguais" ou imprime qual o menor.
+   
+*/
 #include <stdio.h>
 
 int main()

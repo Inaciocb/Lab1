@@ -27,7 +27,7 @@ int main()
         printf("%.2f é o maior", num3);
     }else
     {
-        printf("Pelo menos 1 dos números é igual a outro.\n");
+        printf("Pelo menos um dos números é igual a outro.\n");
     } 
 
     

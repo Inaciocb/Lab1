@@ -25,7 +25,10 @@ int main()
     }else if(num3>num1 && num3>num2)
     {
         printf("%.2f é o maior", num3);
-    }else{printf("erro");} 
+    }else
+    {
+        printf("Pelo menos 1 dos números é igual a outro.\n");
+    } 
 
     
     return 0;

@@ -1,3 +1,7 @@
+/*
+    Faça um programa que:
+    4. Lê 3 números, imprime qual o maior.
+*/
 #include <stdio.h>
 
 int main()

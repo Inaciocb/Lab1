@@ -37,15 +37,12 @@ int main()
         printf("É um triângulo escaleno.");
         if(a1>90 || a2>90 || a3>90  )
     {
-        printf(" É um triângulo obtusângulo tamém. ");
-        
-        
+        printf(" É um triângulo obtusângulo tamém. ");   
     }
         if(a1<90 && a2<90 && a3<90)
     {
         printf(" É acutângulo também.");
     }
-    
     }else if(a1>90 || a2>90 || a3>90  )
     {
         printf("É um triângulo obtusângulo");

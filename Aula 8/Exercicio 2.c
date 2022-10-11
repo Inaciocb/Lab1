@@ -1,21 +1,28 @@
 #include <stdio.h>
 
-int main()
+int
+main ()
 {
-    
-    int i=-1;
-    float soma=0;
-    float n;
-    printf("Digite valores positivos: ");
-    do{
-    scanf("%f", &n);
-    if(n>0)
+
+  int i = -1;
+  float soma = 0;
+  float n;
+  do
     {
-    soma+=n;
+      printf("Digite valores positivos (para cancelar, digite um valor negativo ou '0'): ");
+      scanf ("%f", &n);
+
+      if (n > 0)
+
+	{
+	  soma += n;
+	}
+
+      i++;
+
     }
-    i++;
-    }while(i>=0 && n>=0);
-    
-    printf("A média é %.2f\n", soma/i);
-    return 0;
+  while (i >= 0 && n > 0);
+
+  printf ("A média é %.2f\n", soma / i);
+  return 0;
 }

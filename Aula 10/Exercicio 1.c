@@ -1,3 +1,4 @@
+//Faça uma função que recebe 2 números e retorna o maior deles. Faça um programa para testar a função.
 #include <stdio.h>
 
 float maiorN(float n1, float n2)

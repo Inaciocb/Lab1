@@ -10,7 +10,7 @@ int main()
 {
     int x;
     printf("digite um valor: ");
-    scanf("%d", &x); //exemplo: 2362
+    scanf("%d", &x); 
 
     if(x>=100)
     {

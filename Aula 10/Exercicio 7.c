@@ -2,8 +2,8 @@
 
 int antepen(int x)
 {
-   int antepen = (x/100) % 10;
-   return antepen;
+    int antepen = (x/100) % 10;
+    return antepen;
 }
 
 int main()

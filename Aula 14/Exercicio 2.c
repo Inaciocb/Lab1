@@ -54,6 +54,6 @@ int main()
     {
     printf("v3[%d] = %d\n", i, v3[i]);
     }
-    printf("");
+    printf("\n");
     return 0;
 }

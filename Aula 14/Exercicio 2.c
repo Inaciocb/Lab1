@@ -40,19 +40,19 @@ int main()
     printf("v1:\n\n");
     for(i = 0; i < 5; i++)
     {
-                printf("v1[%d] = %d\n",i, v1[i]);
+       printf("v1[%d] = %d\n",i, v1[i]);
     }
     i = 0;
     printf("\nv2:\n\n");
     for(i = 0; i<5; i++)
     {
-               printf("v2[%d] = %d\n",i, v2[i]);
+        printf("v2[%d] = %d\n",i, v2[i]);
     }
     i = 0;  
     printf("\nv3:\n\n");
     for(i = 0; i < 10; i++)
     {
-    printf("v3[%d] = %d\n", i, v3[i]);
+        printf("v3[%d] = %d\n", i, v3[i]);
     }
    
     printf("\n\n");

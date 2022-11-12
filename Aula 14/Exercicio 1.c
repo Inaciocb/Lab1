@@ -1,3 +1,6 @@
+/*
+Faça um programa que lê dez números e os imprime na ordem inversa à que foram lidos.
+*/
 #include <stdio.h>
 
 int main()

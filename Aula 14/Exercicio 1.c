@@ -15,7 +15,7 @@ int main()
         scanf("%d", &v[i]);
     }
     i--;
-    printf("Os números digitados em ordem invertida são:\n");
+    printf("\nOs números digitados em ordem invertida são:\n\n");
 
     while(i >= 0)
     {

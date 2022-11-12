@@ -22,4 +22,6 @@ int main()
         printf("%d\n", v[i]);
         i--;
     }
+    
+    return 0;
 }

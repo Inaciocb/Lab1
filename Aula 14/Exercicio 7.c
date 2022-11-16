@@ -34,7 +34,7 @@ int qualMenor(int tamanhoVetor, int vetor[tamanhoVetor])
 
 int main()
 {
-    srand(time(333));
+    srand(time(0));
     int v[100], maior = v[0], menor = v[0];
     for(int i=0; i<100; i++)
     {

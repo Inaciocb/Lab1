@@ -1,5 +1,4 @@
 /*
-
 A função rand (inclua <stdlib.h>) produz um número inteiro aleatório (na verdade, pseudo-aleatório). 
 Pode-se usar ela para se fazer uma função que funciona como um dado (produz um número entre 1 e 6 cada vez que é chamada):
 

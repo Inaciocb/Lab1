@@ -36,5 +36,4 @@ int main()
     {
         printf("%d\n", v3[i]);
     }
-
 }

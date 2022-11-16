@@ -44,7 +44,7 @@ int rolarDado(void)
 int main(void)
 {
     int v[6] = {0, 0, 0, 0, 0, 0};
-    srand(time(0)+ &v[8]);
+    srand(time(0) + &v[8]);
 
     for(int i = 0; i < 150000; i++)
     {

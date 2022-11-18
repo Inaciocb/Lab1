@@ -3,7 +3,6 @@ Altere o programa anterior para calcular e imprimir um "fator de desonestidade" 
 o número de vezes que cai o número que cai mais vezes e o número de vezes que cai o número que cai menos vezes dividido
 pelo número de lançamentos.
 */
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>

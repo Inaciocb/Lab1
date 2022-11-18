@@ -36,7 +36,9 @@ int main()
 {
     srand(time(0));
     int v[100], maior = v[0], menor = v[0];
+
     for(int i = 0; i < 100; i++)
+
     {
         v[i] = rand() % 100;
     }

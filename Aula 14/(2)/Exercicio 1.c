@@ -41,9 +41,9 @@ void imprime_vet(int tam, int v[tam])
 
 int main()
 {
-  int d[10];
-  le_vet(10, d);
-  inverte_vet(10, d);
-  imprime_vet(10, d);
-  return 0;
+    int d[10];
+    le_vet(10, d);
+    inverte_vet(10, d);
+    imprime_vet(10, d);
+    return 0;
 }

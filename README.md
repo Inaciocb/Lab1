@@ -1,4 +1,4 @@
-Esse repositório está organizado de acordo com as aulas em: https://github.com/BenhurUFSM/l122b
+Esse repositório está organizado de acordo com as aulas de [Laboratório de Programação I](https://github.com/BenhurUFSM/l122b)
 
 
 

@@ -9,8 +9,8 @@ int jogada_valida(int linhaJogada, int colunaJogada, int *colunaJogavel)
     int linhaJogavel;
     do
     {
-        linhaJogavel = rand() % 10;
-        *colunaJogavel = rand() % 10;
+        linhaJogavel = rand() % 4;
+        *colunaJogavel = rand() % 4;
     }while (linhaJogavel == linhaJogada || colunaJogada == *colunaJogavel);
     return linhaJogavel;
 }
